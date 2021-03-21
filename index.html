@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<style type="text/css">
+		.boy {
+			height: 60px; 
+			width: 10%; 
+			margin-left: 25px; 
+			background-color: cyan; 
+			margin-top: 20px;
+			border-radius: 25px;
+		}
+		.girl{
+			height: 60px; 
+			width: 10%; 
+			margin-left: 10px; 
+			background-color: pink; 
+			margin-top: 20px;
+			border-radius: 25px
+		}
+		.clothesava{
+			width: 16%; 
+			height: 150px; 
+			margin: 40%; 
+			background: purple; 
+			position: absolute; 
+			margin-top: 150px
+		}
+		.hair{
+			width: 20%; 
+			height: 25px; 
+			position: absolute; 
+			background-color: teal; 
+			margin-left: 38%;
+		}
+		.had{
+			width: 16%; 
+			height: 100px; 
+			margin-top: 80px;
+			margin-left: 40%; 
+			background: yellow; 
+			border-radius: 50px; 
+			display: flex;
+		}
+		.eye1{
+			width: 40%;height: 30px; background-color: purple; margin-top: 25px; margin-left: 5px; border-radius: 50px
+		}
+		.eye2{
+			width: 40%;height: 30px; background-color: purple; margin-top: 25px; margin-left: 20px; border-radius: 50px; margin-right: 5px
+		}
+		.noseavatar{
+			width: 5px; height: 25px; background-color: blue; margin-top: 45px; margin-left: 48px; position: absolute;
+		}
+		.mouthava{
+			width: 25px; height: 5px; background-color: black; margin-top: 80px; margin-left: 39px; position: absolute;
+		}
+	</style>
+</head>
+<body class="bg-light" style="">
+		<div style="height: 100px; width: 30%; position: absolute; top: 10%; left: 25%; margin-right: -50%;
+	    transform: translate(-50%, -50%); display: flex; background: silver; border-radius: 30px">
+			<div class="boy"></div>
+			<div class="girl"></div>
+		</div>
+		<div class="" style="width: 30%; height: 650px; position: absolute; top: 17%; left: 10%;">
+			<div class="avagirl" style="display: none;">
+				<div class="avatar">
+					<div class="clothesava">
+						
+					</div>
+					<div class="hair">
+						
+					</div>
+					<div style="" class="had">
+						<div class="eye1" style="">
+							
+						</div>
+						<div class="eye2" style="">
+							
+						</div>
+						<div class="noseavatar" style="">
+							
+						</div>
+						<div class="mouthava" style="">
+							
+						</div>
+					</div>
+					<div style="width: 16%; height: 300px; margin-left: 40%;background: yellow" class="avatarb rounded-pill ">
+						
+					</div>
+				</div>
+			</div>
+			<div class="avaboy" style="display: block;">
+				<div class="avatarb">
+					<div class="clothesavab" style="width: 16%; height: 150px; margin: 40%; background: purple; position: absolute; margin-top: 150px">
+						
+					</div>
+					<div class="hairb" style="width: 20%; height: 25px; position: absolute; background-color: teal; margin-left: 38%;">
+						
+					</div>
+					<div style="width: 16%; height: 100px; margin-top: 80px; margin-left: 40%; background: red; border-radius: 50px; display: flex;" class="hadb">
+						<div class="eye1b" style="width: 40%;height: 30px; background-color: purple; margin-top: 25px; margin-left: 5px; border-radius: 50px">
+							
+						</div>
+						<div class="eye2b" style="width: 40%;height: 30px; background-color: purple; margin-top: 25px; margin-left: 20px; border-radius: 50px; margin-right: 5px">
+							
+						</div>
+						<div class="noseavatarb" style="width: 5px; height: 25px; background-color: blue; margin-top: 45px; margin-left: 48px; position: absolute;">
+							
+						</div>
+						<div class="mouthavab" style="width: 25px; height: 5px; background-color: black; margin-top: 80px; margin-left: 39px; position: absolute;">
+							
+						</div>
+					</div>
+					<div style="width: 16%; height: 300px; margin-left: 40%;background: red" class="avatarboy rounded ">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menugirl" style="display: none;">
+			<div class=" location1" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; border-radius: 50px  50px; background: lightgrey">
+				<div style="display: flex;">
+					<div style="width: 16%; height: 150px; margin-left: 10%; margin-top: 255px" class="body1 rounded-pill bg-warning">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px" class="body2 rounded-pill bg-info">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px" class="body3 rounded-pill bg-success">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location2" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 16%; height: 100px; margin-left: 10%; margin-top: 255px" class="had1 rounded bg-warning">
+							
+					</div>
+					<div style="width: 16%; height: 100px; margin-left: 16%; margin-top: 255px" class="had2 rounded-circle bg-warning">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 235px" class="had3 rounded-pill bg-warning">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location3" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 18%; height: 140px; margin-left: 9%; margin-top: 150px; background: purple;" class="eyes1 rounded-pill ">
+							
+					</div>
+					<div style="width: 18%; height: 140px; margin-left: 15%; margin-top: 150px; background: red;" class="eyes2 rounded-pill ">
+							
+					</div>
+					<div style="width: 18%; height: 140px; margin-left: 15%; margin-top: 150px; background: pink;" class="eyes3 rounded-pill ">
+							
+					</div>
+				</div>
+				<div style="display: flex;">
+					<div style="width: 16%; height: 90px; margin-left: 10%; margin-top: 150px" class="eyes4 rounded-pill bg-warning">
+							
+					</div>
+					<div style="width: 16%; height: 90px; margin-left: 16%; margin-top: 150px" class="eyes5 rounded bg-success">
+							
+					</div>
+					<div style="width: 15%; height: 110px; margin-left: 16%; margin-top: 150px" class="eyes6 rounded-circle bg-success">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location4" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 16%; height: 150px; margin-left: 10%; margin-top: 255px" class="mouth1 rounded-pill bg-dark">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px" class="mouth2 rounded-pill bg-secondary">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px" class="mouth3 rounded-pill bg-info">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location5" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 16%; height: 150px; margin-left: 10%; margin-top: 255px; background: darkblue" class="nose1 rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px; background: purple" class="nose2 rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px; background: red" class="nose3 rounded-pill">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location6" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 16%; height: 150px; margin-left: 10%; margin-top: 255px; background: purple" class="clothes1 rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px; background: orange" class="clothes2 rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px; background: grey" class="clothes3 rounded-pill">
+							
+					</div>
+				</div>
+			</div>	
+			<div class="location7" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 18%; height: 140px; margin-left: 9%; margin-top: 150px; background: fuchsia;" class="hat1 rounded-pill ">
+							
+					</div>
+					<div style="width: 18%; height: 140px; margin-left: 15%; margin-top: 150px; background: teal;" class="hat2 rounded-pill ">
+							
+					</div>
+					<div style="width: 18%; height: 140px; margin-left: 15%; margin-top: 150px; background: olive;" class="hat3 rounded-pill ">
+							
+					</div>
+				</div>
+				<div style="display: flex;">
+					<div style="width: 16%; height: 40px; margin-left: 10%; margin-top: 205px; background: coral" class="hat4 rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 40px; margin-left: 16%; margin-top: 205px; background: coral" class="hat5 rounded">
+							
+					</div>
+					<div style="width: 15%; height: 50px; margin-left: 16%; margin-top: 205px; background: coral" class="hat6">
+							
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menuboy" style="display: block;">
+			<div class=" location1b" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; border-radius: 50px  50px; background: lightgrey">
+				<div style="display: flex;">
+					<div style="width: 16%; height: 150px; margin-left: 10%; margin-top: 255px" class="body1b rounded-pill bg-danger">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px" class="body2b rounded-pill bg-info">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px" class="body3b rounded-pill bg-success">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location2b" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 16%; height: 100px; margin-left: 10%; margin-top: 255px" class="had1b rounded bg-warning">
+							
+					</div>
+					<div style="width: 16%; height: 100px; margin-left: 16%; margin-top: 255px" class="had2b rounded-circle bg-warning">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 235px" class="had3b rounded-pill bg-warning">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location3b" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 18%; height: 140px; margin-left: 9%; margin-top: 150px; background: purple;" class="eyes1b rounded-pill ">
+							
+					</div>
+					<div style="width: 18%; height: 140px; margin-left: 15%; margin-top: 150px; background: red;" class="eyes2b rounded-pill ">
+							
+					</div>
+					<div style="width: 18%; height: 140px; margin-left: 15%; margin-top: 150px; background: pink;" class="eyes3b rounded-pill ">
+							
+					</div>
+				</div>
+				<div style="display: flex;">
+					<div style="width: 16%; height: 90px; margin-left: 10%; margin-top: 150px" class="eyes4b rounded-pill bg-warning">
+							
+					</div>
+					<div style="width: 16%; height: 90px; margin-left: 16%; margin-top: 150px" class="eyes5b rounded bg-success">
+							
+					</div>
+					<div style="width: 15%; height: 110px; margin-left: 16%; margin-top: 150px" class="eyes6b rounded-circle bg-success">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location4b" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 16%; height: 150px; margin-left: 10%; margin-top: 255px" class="mouth1b rounded-pill bg-dark">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px" class="mouth2b rounded-pill bg-secondary">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px" class="mouth3b rounded-pill bg-info">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location5b" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 16%; height: 150px; margin-left: 10%; margin-top: 255px; background: darkblue" class="nose1b rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px; background: purple" class="nose2b rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px; background: red" class="nose3b rounded-pill">
+							
+					</div>
+				</div>
+			</div>
+			<div class="location6b" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 16%; height: 150px; margin-left: 10%; margin-top: 255px; background: purple" class="clothes1b rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px; background: orange" class="clothes2b rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 150px; margin-left: 16%; margin-top: 255px; background: grey" class="clothes3b rounded-pill">
+							
+					</div>
+				</div>
+			</div>	
+			<div class="location7b" style="width: 30%; height: 766px; position: absolute; top: 5%; left: 42%; display: none; border-radius: 50px  50px;background: lightgrey"> 
+				<div style="display: flex;">
+					<div style="width: 18%; height: 140px; margin-left: 9%; margin-top: 150px; background: fuchsia;" class="hat1b rounded-pill ">
+							
+					</div>
+					<div style="width: 18%; height: 140px; margin-left: 15%; margin-top: 150px; background: teal;" class="hat2b rounded-pill ">
+							
+					</div>
+					<div style="width: 18%; height: 140px; margin-left: 15%; margin-top: 150px; background: olive;" class="hat3b rounded-pill ">
+							
+					</div>
+				</div>
+				<div style="display: flex;">
+					<div style="width: 16%; height: 40px; margin-left: 10%; margin-top: 205px; background: coral" class="hat4b rounded-pill">
+							
+					</div>
+					<div style="width: 16%; height: 40px; margin-left: 16%; margin-top: 205px; background: coral" class="hat5b rounded">
+							
+					</div>
+					<div style="width: 15%; height: 50px; margin-left: 16%; margin-top: 205px; background: coral" class="hat6b">
+							
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="" style="width: 30%; height: 100px; display: flex; top: 70%; left: 42%; border-radius: 0px 0px 50px 50px;position: absolute; background: gainsboro">
+				<div style="width: 10%; height: 30px; margin-left: 20px; margin-top: 30px; border-radius: 25px" class="bg-warning bodyavatar">
+					<p style="margin-left: 13px">Body</p>
+				</div>	
+				<div style="width: 10%; height: 30px; margin-left: 25px; margin-top: 30px; border-radius: 25px" class="bg-warning face">
+					<p style="margin-left: 13px">Face</p>
+				</div>
+				<div style="width: 10%; height: 30px; margin-left: 25px; margin-top: 30px; border-radius: 25px" class="bg-warning eyes">
+					<p style="margin-left: 15px">Eyes</p>
+				</div>
+				<div style="width: 10%; height: 30px; margin-left: 25px; margin-top: 30px; border-radius: 25px" class="bg-warning mouth">
+					<p style="margin-left: 6px">Mouth</p>
+				</div>
+				<div style="width: 10%; height: 30px; margin-left: 25px; margin-top: 30px; border-radius: 25px" class="bg-warning nose">
+					<p style="margin-left: 13px">Nose</p>
+				</div>
+				<div style="width: 10%; height: 30px; margin-left: 25px; margin-top: 30px; border-radius: 25px" class="bg-warning clothes">
+					<p style="margin-left: 4px">Clothes</p>
+				</div>
+				<div style="width: 10%; height: 30px; margin-left: 25px; margin-top: 30px; border-radius: 25px" class="bg-warning hat">
+					<p style="margin-left: 16px">Hair</p>
+				</div>
+		</div>
+	<script type="text/javascript">
+		//GIRL
+		let menugirl = document.querySelector(".menugirl");
+		let avagirl = document.querySelector(".avagirl");
+		let girl = document.querySelector(".girl");
+		//BOY
+		let menuboy = document.querySelector(".menuboy");
+		let avaboy = document.querySelector(".avaboy");
+		let boy = document.querySelector(".boy");
+		//локация1
+	    let location1 = document.querySelector(".location1");
+	    //локация2
+	    let location2 = document.querySelector(".location2");
+	    //локация4
+	    let location3 = document.querySelector(".location3");
+	    //локация5
+	    let location4 = document.querySelector(".location4");
+	    //локация6
+	    let location5 = document.querySelector(".location5");
+	    //локация6
+	    let location6 = document.querySelector(".location6");
+	    //локация7
+	    let location7 = document.querySelector(".location7");
+		//див с редактором тела  
+	    let bodyavatar = document.querySelector(".bodyavatar");
+	    //див с редактором лица
+	    let face = document.querySelector(".face");
+	    //див с редактором глаз 
+	    let eyes = document.querySelector(".eyes");
+	    //див с редактором рта
+	    let mouth = document.querySelector(".mouth");
+	    //див с редактором носа 
+	    let nose = document.querySelector(".nose");
+	    //див с редактором одежды
+	    let clothes = document.querySelector(".clothes");
+	    //див с редактором голвного убора
+	    let hat = document.querySelector(".hat");
+	   	//тег body
+	    let body = document.querySelector("body");
+	    //светлый
+	    let body2 = document.querySelector(".body2");
+	    //нейтральный
+	    let body1 = document.querySelector(".body1");
+	    //темный
+	    let body3= document.querySelector(".body3");
+	    //форма лица1
+	     let had1= document.querySelector(".had1");
+	    //форма лица2
+	     let had2= document.querySelector(".had2");
+	    //форма лица3
+	     let had3= document.querySelector(".had3");
+	     //цвет глаз1
+	     let eyes1= document.querySelector(".eyes1");
+	    //цвет глаз2
+	     let eyes2= document.querySelector(".eyes2");
+	    //цвет глаз3
+	     let eyes3= document.querySelector(".eyes3");
+	    //форма глаз1
+	     let eyes4= document.querySelector(".eyes4");
+	    //форма глаз2
+	     let eyes5= document.querySelector(".eyes5");
+	    //форма глаз3
+	     let eyes6= document.querySelector(".eyes6");
+	    //цвет губ1
+	     let mouth1= document.querySelector(".mouth1");
+	    //цвет губ2
+	     let mouth2= document.querySelector(".mouth2");
+	    //цвет губ3
+	     let mouth3= document.querySelector(".mouth3");
+	     //
+	     let nose1= document.querySelector(".nose1");
+	    //
+	     let nose2= document.querySelector(".nose2");
+	    //
+	     let nose3= document.querySelector(".nose3");
+	     //
+	     let clothes1= document.querySelector(".clothes1");
+	    //
+	     let clothes2= document.querySelector(".clothes2");
+	    //
+	     let clothes3= document.querySelector(".clothes3");
+	     //
+	     let hat1= document.querySelector(".hat1");
+	    //
+	     let hat2= document.querySelector(".hat2");
+	    //
+	     let hat3= document.querySelector(".hat3");
+	     //
+	     let hat4= document.querySelector(".hat4");
+	    //
+	     let hat5= document.querySelector(".hat5");
+	    //
+	    let hat6= document.querySelector(".hat6");
+	    let had = document.querySelector(".had");
+	    let avatarb = document.querySelector(".avatarb");
+	    let eye1 = document.querySelector(".eye1");
+	    let eye2 = document.querySelector(".eye2");
+	    let mouthava = document.querySelector(".mouthava");
+	    let hair = document.querySelector(".hair");
+	    let clothesava = document.querySelector(".clothesava");
+	    let noseavatar = document.querySelector(".noseavatar");
+	    //локация1
+	    let location1b = document.querySelector(".location1b");
+	    //локация2
+	    let location2b = document.querySelector(".location2b");
+	    //локация4
+	    let location3b = document.querySelector(".location3b");
+	    //локация5
+	    let location4b = document.querySelector(".location4b");
+	    //локация6
+	    let location5b = document.querySelector(".location5b");
+	    //локация6
+	    let location6b = document.querySelector(".location6b");
+	    //локация7
+	    let location7b = document.querySelector(".location7b");
+	    //светлый
+	    let body2b = document.querySelector(".body2b");
+	    //нейтральный
+	    let body1b = document.querySelector(".body1b");
+	    //темный
+	    let body3b= document.querySelector(".body3b");
+	    //форма лица1
+	     let had1b= document.querySelector(".had1b");
+	    //форма лица2
+	     let had2b= document.querySelector(".had2b");
+	    //форма лица3
+	     let had3b= document.querySelector(".had3b");
+	     //цвет глаз1
+	     let eyes1b= document.querySelector(".eyes1b");
+	    //цвет глаз2
+	     let eyes2b= document.querySelector(".eyes2b");
+	    //цвет глаз3
+	     let eyes3b= document.querySelector(".eyes3b");
+	    //форма глаз1
+	     let eyes4b= document.querySelector(".eyes4b");
+	    //форма глаз2
+	     let eyes5b= document.querySelector(".eyes5b");
+	    //форма глаз3
+	     let eyes6b= document.querySelector(".eyes6b");
+	    //цвет губ1
+	     let mouth1b= document.querySelector(".mouth1b");
+	    //цвет губ2
+	     let mouth2b= document.querySelector(".mouth2b");
+	    //цвет губ3
+	     let mouth3b= document.querySelector(".mouth3b");
+	     //
+	     let nose1b= document.querySelector(".nose1b");
+	    //
+	     let nose2b= document.querySelector(".nose2b");
+	    //
+	     let nose3b= document.querySelector(".nose3b");
+	     //
+	     let clothes1b= document.querySelector(".clothes1b");
+	    //
+	     let clothes2b= document.querySelector(".clothes2b");
+	    //
+	     let clothes3b= document.querySelector(".clothes3b");
+	     //
+	     let hat1b= document.querySelector(".hat1b");
+	    //
+	     let hat2b= document.querySelector(".hat2b");
+	    //
+	     let hat3b= document.querySelector(".hat3b");
+	     //
+	     let hat4b= document.querySelector(".hat4b");
+	    //
+	     let hat5b= document.querySelector(".hat5b");
+	    //
+	    let hat6b= document.querySelector(".hat6b");
+	    let hadb = document.querySelector(".hadb");
+	    let avatarboy = document.querySelector(".avatarboy");
+	    let eye1b = document.querySelector(".eye1b");
+	    let eye2b = document.querySelector(".eye2b");
+	    let mouthavab= document.querySelector(".mouthavab");
+	    let hairb = document.querySelector(".hairb");
+	    let clothesavab = document.querySelector(".clothesavab");
+	    let noseavatarb = document.querySelector(".noseavatarb");
+	    //girl
+		body1.onclick = function() {
+			had.style.background = "yellow";
+			avatarb.style.background = "yellow";
+		}
+		body2.onclick = function() {
+			had.style.background = "cyan";
+			avatarb.style.background = "cyan";
+		}
+		body3.onclick = function() {
+			had.style.background = "green";
+			avatarb.style.background = "green";
+		}
+		mouth1.onclick = function() {
+			mouthava.style.background = "black";
+		}
+		mouth2.onclick = function() {
+			mouthava.style.background = "lightgrey";
+		}
+		mouth3.onclick = function() {
+			mouthava.style.background = "cyan";
+		}
+		had1.onclick = function() {
+			had.style.borderRadius = "10px";
+			had.style.height = "100px";
+		}
+		had2.onclick = function() {
+			had.style.borderRadius = "50px";
+			had.style.height = "100px";
+		}
+		had3.onclick = function() {
+			had.style.borderRadius = "50px";
+			had.style.height = "130px";
+		}
+		eyes1.onclick = function() {
+			eye1.style.background = "purple";
+			eye2.style.background = "purple";
+		}
+		eyes2.onclick = function() {
+			eye1.style.background = "red";
+			eye2.style.background = "red";
+		}
+		eyes3.onclick = function() {
+			eye1.style.background = "pink";
+			eye2.style.background = "pink";
+		}
+		eyes4.onclick = function() {
+			eye1.style.borderRadius = "50px";
+			eye2.style.borderRadius = "50px";
+			eye1.style.width = "40%";
+			eye2.style.width = "40%";
+			eye1.style.marginLeft = "5px";
+			eye2.style.marginLeft = "20px";
+		}
+		eyes5.onclick = function() {
+			eye1.style.borderRadius = "10px";
+			eye2.style.borderRadius = "10px";
+			eye1.style.width = "40%";
+			eye2.style.width = "40%";
+			eye1.style.marginLeft = "5px";
+			eye2.style.marginLeft = "25px";
+		}
+		eyes6.onclick = function() {
+			eye1.style.borderRadius = "50px";
+			eye2.style.borderRadius = "50px";
+			eye1.style.width = "30%";
+			eye2.style.width = "30%";
+			eye1.style.marginLeft = "8px";
+			eye2.style.marginLeft = "25px";
+		}
+		nose1.onclick = function() {
+			noseavatar.style.background = "darkblue";
+		}
+		nose2.onclick = function() {
+			noseavatar.style.background = "purple";
+		}
+		nose3.onclick = function() {
+			noseavatar.style.background = "red";
+		}
+		clothes1.onclick = function() {
+			clothesava.style.background = "purple";
+		}
+		clothes2.onclick = function() {
+			clothesava.style.background = "orange";
+		}
+		clothes3.onclick = function() {
+			clothesava.style.background = "grey";
+		}
+		hat1.onclick = function() {
+			hair.style.background = "fuchsia";
+		}
+		hat2.onclick = function() {
+			hair.style.background = "teal";
+		}
+		hat3.onclick = function() {
+			hair.style.background = "olive";
+		}
+		hat4.onclick = function() {
+			hair.style.borderRadius = "50px";
+		}
+		hat5.onclick = function() {
+			hair.style.borderRadius = "5px";
+		}
+		hat6.onclick = function() {
+			hair.style.borderRadius = "0px";
+		}
+		//boy
+		body1b.onclick = function() {
+			hadb.style.background = "red";
+			avatarboy.style.background = "red";
+		}
+		body2b.onclick = function() {
+			hadb.style.background = "cyan";
+			avatarboy.style.background = "cyan";
+		}
+		body3b.onclick = function() {
+			hadb.style.background = "green";
+			avatarboy.style.background = "green";
+		}
+		mouth1b.onclick = function() {
+			mouthavab.style.background = "black";
+		}
+		mouth2b.onclick = function() {
+			mouthavab.style.background = "lightgrey";
+		}
+		mouth3b.onclick = function() {
+			mouthavab.style.background = "cyan";
+		}
+		had1b.onclick = function() {
+			hadb.style.borderRadius = "10px";
+			hadb.style.height = "100px";
+		}
+		had2b.onclick = function() {
+			hadb.style.borderRadius = "50px";
+			hadb.style.height = "100px";
+		}
+		had3b.onclick = function() {
+			hadb.style.borderRadius = "50px";
+			hadb.style.height = "130px";
+		}
+		eyes1b.onclick = function() {
+			eye1b.style.background = "purple";
+			eye2b.style.background = "purple";
+		}
+		eyes2b.onclick = function() {
+			eye1b.style.background = "red";
+			eye2b.style.background = "red";
+		}
+		eyes3b.onclick = function() {
+			eye1b.style.background = "pink";
+			eye2b.style.background = "pink";
+		}
+		eyes4b.onclick = function() {
+			eye1b.style.borderRadius = "50px";
+			eye2b.style.borderRadius = "50px";
+			eye1b.style.width = "40%";
+			eye2b.style.width = "40%";
+			eye1b.style.marginLeft = "5px";
+			eye2b.style.marginLeft = "20px";
+		}
+		eyes5b.onclick = function() {
+			eye1.style.borderRadius = "10px";
+			eye2.style.borderRadius = "10px";
+			eye1.style.width = "40%";
+			eye2.style.width = "40%";
+			eye1.style.marginLeft = "5px";
+			eye2.style.marginLeft = "25px";
+		}
+		eyes6b.onclick = function() {
+			eye1b.style.borderRadius = "50px";
+			eye2b.style.borderRadius = "50px";
+			eye1b.style.width = "30%";
+			eye2b.style.width = "30%";
+			eye1b.style.marginLeft = "8px";
+			eye2b.style.marginLeft = "25px";
+		}
+		nose1b.onclick = function() {
+			noseavatarb.style.background = "darkblue";
+		}
+		nose2b.onclick = function() {
+			noseavatarb.style.background = "purple";
+		}
+		nose3b.onclick = function() {
+			noseavatarb.style.background = "red";
+		}
+		clothes1b.onclick = function() {
+			clothesavab.style.background = "purple";
+		}
+		clothes2b.onclick = function() {
+			clothesavab.style.background = "orange";
+		}
+		clothes3b.onclick = function() {
+			clothesavab.style.background = "grey";
+		}
+		hat1b.onclick = function() {
+			hairb.style.background = "fuchsia";
+		}
+		hat2b.onclick = function() {
+			hairb.style.background = "teal";
+		}
+		hat3b.onclick = function() {
+			hairb.style.background = "olive";
+		}
+		hat4b.onclick = function() {
+			hairb.style.borderRadius = "50px";
+		}
+		hat5b.onclick = function() {
+			hairb.style.borderRadius = "5px";
+		}
+		hat6b.onclick = function() {
+			hairb.style.borderRadius = "0px";
+	    }
+	    //
+	    boy.onclick = function() {
+		   	avaboy.style.display = "block";
+		    avagirl.style.display = "none";
+		    menuboy.style.display = "block";
+		    menugirl.style.display = "none";
+		    	
+		}	
+		girl.onclick = function() {
+		   	avaboy.style.display = "none";
+		    avagirl.style.display = "block";
+		    menuboy.style.display = "none";
+		    menugirl.style.display = "block";
+		    	
+		}	
+		bodyavatar.onclick = function() {
+		   	location1.style.display = "block";
+		    location2.style.display = "none";
+		    location3.style.display = "none";
+		    location4.style.display = "none";
+		    location5.style.display = "none";
+		    location6.style.display = "none";
+		    location7.style.display = "none";
+		    location1b.style.display = "block";
+		    location2b.style.display = "none";
+		    location3b.style.display = "none";
+		    location4b.style.display = "none";
+		    location5b.style.display = "none";
+		    location6b.style.display = "none";
+		    location7b.style.display = "none";
+		    	
+		}
+	    face.onclick = function() {
+		   	location1.style.display = "none";
+		    location2.style.display = "block";
+		    location3.style.display = "none";
+		    location4.style.display = "none";
+		    location5.style.display = "none";
+		    location6.style.display = "none";
+		    location7.style.display = "none";
+		    location1b.style.display = "none";
+		    location2b.style.display = "block";
+		    location3b.style.display = "none";
+		    location4b.style.display = "none";
+		    location5b.style.display = "none";
+		    location6b.style.display = "none";
+		    location7b.style.display = "none";
+	    }
+	    eyes.onclick = function() {
+		   	location1.style.display = "none";
+		    location2.style.display = "none";
+		    location3.style.display = "block";
+		    location4.style.display = "none";
+		    location5.style.display = "none";
+		    location6.style.display = "none";
+		    location7.style.display = "none";
+		    location1b.style.display = "none";
+		    location2b.style.display = "none";
+		    location3b.style.display = "block";
+		    location4b.style.display = "none";
+		    location5b.style.display = "none";
+		    location6b.style.display = "none";
+		    location7b.style.display = "none";		    
+
+	    }
+	    mouth.onclick = function() {
+		   	location1.style.display = "none";
+		    location2.style.display = "none";
+		    location4.style.display = "block";
+		    location3.style.display = "none";
+		    location5.style.display = "none";
+		    location6.style.display = "none";
+		    location7.style.display = "none";
+		    location1b.style.display = "none";
+		    location2b.style.display = "none";
+		    location4b.style.display = "block";
+		    location3b.style.display = "none";
+		    location5b.style.display = "none";
+		    location6b.style.display = "none";
+		    location7b.style.display = "none";
+
+	    }
+	    nose.onclick = function() {
+		   	location1.style.display = "none";
+		    location2.style.display = "none";
+		    location5.style.display = "block";
+		    location4.style.display = "none";
+		    location3.style.display = "none";
+		    location6.style.display = "none";
+		    location7.style.display = "none";
+		    location1b.style.display = "none";
+		    location2b.style.display = "none";
+		    location5b.style.display = "block";
+		    location4b.style.display = "none";
+		    location3b.style.display = "none";
+		    location6b.style.display = "none";
+		    location7b.style.display = "none";
+
+	    }
+	    clothes.onclick = function() {
+		   	location1.style.display = "none";
+		    location2.style.display = "none";
+		    location6.style.display = "block";
+		    location4.style.display = "none";
+		    location5.style.display = "none";
+		    location3.style.display = "none";
+		    location7.style.display = "none";
+		    location1b.style.display = "none";
+		    location2b.style.display = "none";
+		    location6b.style.display = "block";
+		    location4b.style.display = "none";
+		    location5b.style.display = "none";
+		    location3b.style.display = "none";
+		    location7b.style.display = "none";
+
+	    }
+	    hat.onclick = function() {
+		   	location1.style.display = "none";
+		    location2.style.display = "none";
+		    location7.style.display = "block";
+		    location4.style.display = "none";
+		    location5.style.display = "none";
+		    location6.style.display = "none";
+		    location3.style.display = "none";
+		    location1b.style.display = "none";
+		    location2b.style.display = "none";
+		    location7b.style.display = "block";
+		    location4b.style.display = "none";
+		    location5b.style.display = "none";
+		    location6b.style.display = "none";
+		    location3b.style.display = "none";		    
+
+	    }
+	</script>
+</body>
+</html>	
